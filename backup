@@ -1,29 +1,43 @@
 #!/bin/bash
-if [ "$1" == "-d" ] || [ -z "$1" ]; then
-	destination_dir="/Backup_$(date '+%d_%m_%Y_%T')" 
-else
-	destination_dir=$1	
-fi 
+destination_dir="/Backup_$(date '+%d_%m_%Y_%T')" 
+arc_name="/Backup_$(date '+%d_%m_%Y_%T')"
 
-if [ "$2" == "-d" ] || [ -z "$2" ]; then
-	arc_name="/Backup_$(date '+%d_%m_%Y_%T')"
-else
-	arc_name=$2
-fi 
+while [ $# != 0 ]
+do
+	if [ "$1" == "-d" ]; then
+		destination_dir=$2
+		shift 
+		shift 
+	fi
+	
+	if [ "$1" == "-a" ]; then
+		arc_name=$2
+		shift
+		shift
+	fi
 
-shift
-shift
+	
+
+	if [ "$1" == "-e" ]; then
+		shift
+		while [ "$1" != "-d" ] && [ "$1" != "-a" ] && [ ! -z "$1" ]
+		do
+			file_extentions+=($1) 
+			shift
+		done
+	fi
+	
+done
 
 cd $HOME
 mkdir -p $destination_dir
-if [ "$1" == "-a" ] || [ -z "$1" ]; then
+if [ -z "$file_extentions" ]; then
 	find -depth -name "*" -exec cp --parent {} $destination_dir \; 2>/dev/null
 else
-	file_extentions=($*)
 	for i in $file_extentions
 		do
 		find -depth -name "*$i" -exec cp --parent {} $destination_dir \; 2>/dev/null
-	done
+		done
 fi 
 
 cd $destination_dir
