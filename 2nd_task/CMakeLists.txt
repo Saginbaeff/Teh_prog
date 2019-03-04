@@ -11,7 +11,7 @@ execute_process(
                   COMMAND ${py_cmd}
                   WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/A
                )
-include_directories("A/" "C/")
+include_directories("A/" "C/" ".")
 
 add_executable(main C/main.cpp)
 
