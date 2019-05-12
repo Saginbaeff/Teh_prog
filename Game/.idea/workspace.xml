@@ -9,73 +9,86 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/game$main.coverage" NAME="main Coverage Results" MODIFIED="1553872689183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/game$test.coverage" NAME="test Coverage Results" MODIFIED="1553872767479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game$main.coverage" NAME="main Coverage Results" MODIFIED="1557431626925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game$test.coverage" NAME="test Coverage Results" MODIFIED="1557412036446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2095309039">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="38" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="10" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.open.time.6" value="18" />
+          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9024" />
+          <entry key="dummy" value="22" />
+          <entry key="py" value="14652" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="9024" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="14652" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="263" column="1" selection-start-line="263" selection-start-column="1" selection-end-line="263" selection-end-column="1" />
+            <state relative-caret-position="833">
+              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <marker date="1553872751048" expanded="true" signature="123:124" ph="..." />
-                <marker date="1553872751048" expanded="true" signature="123:154" ph="..." />
-                <marker date="1553872751048" expanded="true" signature="7236:7383" ph="..." />
-                <marker date="1553872751048" expanded="true" signature="7384:7385" ph="..." />
-                <marker date="1553872751048" expanded="true" signature="7406:7411" ph="..." />
-                <marker date="1553872751048" expanded="true" signature="8068:8073" ph="..." />
+                <element signature="e#0#20#0" expanded="true" />
+                <marker date="1557681800298" expanded="true" signature="1201:1210" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="1201:1242" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="2699:2712" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="3131:3429" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="3756:4965" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="6973:7061" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="7764:8033" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="8161:8162" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="8161:8167" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="8713:8718" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="8713:8722" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="9018:11035" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="9059:9174" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="10992:11001" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="15349:15400" ph="..." />
+                <marker date="1557681800298" expanded="true" signature="17494:17595" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            <state relative-caret-position="1377">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1553872767448" expanded="true" signature="67:72" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,14 +117,20 @@
       <find>lumberjack_hut</find>
       <find>miner_hut</find>
       <find>barrack</find>
+      <find>pack_build</find>
+      <find>singleton</find>
+      <find>attack</find>
+      <find>collect</find>
+      <find>open_list</find>
+      <find>error</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pgame.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -122,8 +141,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="687" />
+    <option name="x" value="74" />
+    <option name="y" value="191" />
     <option name="width" value="1637" />
     <option name="height" value="562" />
   </component>
@@ -147,6 +166,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="singleton&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -165,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="game" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,8 +236,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -235,16 +255,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1866" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1858" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33499447" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3275862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993808" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -267,15 +287,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>'Barrack'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../untitled1/main_v2.0.py" />
-    <entry file="file://$PROJECT_DIR$/pgame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4505">
-          <caret line="265" selection-start-line="265" selection-end-line="265" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pgame.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
@@ -285,27 +308,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="263" column="1" selection-start-line="263" selection-start-column="1" selection-end-line="263" selection-end-column="1" />
+        <state relative-caret-position="833">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1553872751048" expanded="true" signature="123:124" ph="..." />
-            <marker date="1553872751048" expanded="true" signature="123:154" ph="..." />
-            <marker date="1553872751048" expanded="true" signature="7236:7383" ph="..." />
-            <marker date="1553872751048" expanded="true" signature="7384:7385" ph="..." />
-            <marker date="1553872751048" expanded="true" signature="7406:7411" ph="..." />
-            <marker date="1553872751048" expanded="true" signature="8068:8073" ph="..." />
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1557681800298" expanded="true" signature="1201:1210" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="1201:1242" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="2699:2712" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="3131:3429" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="3756:4965" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="6973:7061" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="7764:8033" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="8161:8162" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="8161:8167" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="8713:8718" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="8713:8722" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="9018:11035" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="9059:9174" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="10992:11001" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="15349:15400" ph="..." />
+            <marker date="1557681800298" expanded="true" signature="17494:17595" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        <state relative-caret-position="1377">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1553872767448" expanded="true" signature="67:72" ph="..." />
           </folding>
         </state>
       </provider>
