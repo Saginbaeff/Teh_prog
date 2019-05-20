@@ -94,7 +94,7 @@ class HealDivisionHandler(BarrackRequestHandler):
 class UpgradeDivisionHandler(BarrackRequestHandler):
     def handle(self, *args):
         self.unpack()
-        if isinstance(BUILDINGS[3][1][0].DIVISIONS[args[0]][1][0][args[1]], AdditionalAbilities):
+        if not isinstance(BUILDINGS[3][1][0].DIVISIONS[args[0]][1][0][args[1]], AdditionalAbilities):
             self.successor(*args)
         else:
             self.error_message(BUILDINGS[3][1][0].DIVISIONS[args[0]][0] + 'is already upgraded!')
